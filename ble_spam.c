@@ -406,7 +406,7 @@ static void draw_callback(Canvas* canvas, void* _ctx) {
             AlignTop,
             "App+Everything: \e#WillyJL\e#,\n"
             "\e#ECTO-1A\e# & \e#Spooks4576\e#\n"
-            "OFW port: \e#Wr3nch\e#\n"
+            "OFW port: \e#Wr3nch\e# & \e#Silent\e#\n"
             "                                   Version \e#" FAP_VERSION "\e#",
             false);
         break;
