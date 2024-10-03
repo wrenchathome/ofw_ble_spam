@@ -530,22 +530,6 @@ static const struct {
     {0x855347, "NIRVANA NEBULA"},
     {0x861698, "LinkBuds"},
     {0xCB2FE7, "soundcore Motion X500"},
-
-    // Custom debug popups
-    {0x73A6F2, "Momentum Firmware"},
-    {0xD99CA1, "Flipper Zero"},
-    {0x77FF67, "Free Robux"},
-    {0xAA187F, "Free VBucks"},
-    {0xDCE9EA, "Rickroll"},
-    {0x87B25F, "Animated Rickroll"},
-    {0xF38C02, "Boykisser"},
-    {0x1448C9, "BLM"},
-    {0x13B39D, "Talking Sasquach"},
-    {0xAA1FE1, "ClownMaster"},
-    {0x7C6CDB, "Obama"},
-    {0x005EF9, "Ryanair"},
-    {0xE2106F, "FBI"},
-    {0xB37A62, "Tesla"},
 };
 static const uint16_t models_count = COUNT_OF(models);
 
