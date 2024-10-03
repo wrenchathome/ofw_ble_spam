@@ -41,4 +41,8 @@ typedef struct {
     Submenu* submenu;
     TextInput* text_input;
     VariableItemList* variable_item_list;
+    //OFW PATCH
+    VariableItem* item_pp_color;
+
 } Ctx;
+

@@ -552,8 +552,9 @@ static void pp_model_changed(VariableItem* item) {
         colors_count = 1;
         value_index_color = 0;
     }
-    //item = variable_item_list_get(ctx->variable_item_list, );
-    item = variable_item_list_add(ctx->variable_item_list, "Flags", 0, NULL, NULL);
+    //item = variable_item_list_get(ctx->variable_item_list, ConfigPpColor);
+    //OFW PATCH
+    item = ctx->item_pp_color;
     variable_item_set_values_count(item, colors_count);
     variable_item_set_current_value_index(item, value_index_color);
     variable_item_set_current_value_text(item, color_name);
@@ -697,6 +698,9 @@ static void extra_config(Ctx* ctx) {
 
         item =
             variable_item_list_add(list, "Device Color", colors_count, pp_color_changed, payload);
+        //OFW PATCH
+        ctx->item_pp_color = item;
+
         variable_item_set_current_value_index(item, value_index_color);
         variable_item_set_current_value_text(item, color_name);
 
